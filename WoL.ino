@@ -11,8 +11,8 @@ unsigned int localPort = 7;
 #define MACADDR "000d5ec70e04"
 
 void setup() {
-  pinMode(16, INPUT);
-  digitalWrite(16, HIGH);
+  pinMode(4, INPUT);
+  digitalWrite(4, HIGH);
   
   Serial.begin(115200);
   wifiSetup(&WiFiMulti, &server);
@@ -25,14 +25,14 @@ void setup() {
 void loop() {
   listener();
 
-  if(!digitalRead(16)){
+  if(!digitalRead(4)){
     Serial.println("send WOL Packet");
     char str[20];
     sprintf(str, MACADDR);
     sendWol(str);
   }
  
-  delay(1000);
+  delay(200);
 }
 
 
