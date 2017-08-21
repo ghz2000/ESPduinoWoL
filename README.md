@@ -1,6 +1,8 @@
 # ESPduinoWoL
 Arduino WoL for Universal ESPduino
 
+![エビフライトライアングル](https://i0.wp.com/ghz2000.com/wordpress/wp-content/uploads/2017/03/IMG_6899.jpg?resize=650%2C488 "サンプル")
+
 詳しい使い方は以下を御覧ください｡
 http://ghz2000.com/wordpress/?p=848
 
