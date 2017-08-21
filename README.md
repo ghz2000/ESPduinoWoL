@@ -7,6 +7,8 @@ Arduino WoL for Universal ESPduino
 http://ghz2000.com/wordpress/?p=848
 
 
+ESP8266 ( WROOM-02 ) を使って WoL パケットを送信するサンプルです｡
+
 AdvancedOTA.h の中の ap_ssid, ap_pass, sta_ssid, sta_pass, を適切に変更してください｡
 apはAPモードのSSID､ sta は 親機のSSIDを入れます｡
 
